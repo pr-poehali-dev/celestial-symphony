@@ -6,13 +6,8 @@ const todayLabel = getTodayLabel()
 
 export const sections = [
   {
-    id: 'hero',
-    subtitle: <Badge variant="outline" className="text-white border-white capitalize">{todayLabel}</Badge>,
-    title: day.compliment,
-    content: day.complimentSub,
-  },
-  {
     id: 'motivation',
+    subtitle: <Badge variant="outline" className="text-white border-white capitalize">{todayLabel}</Badge>,
     title: day.motivation,
     content: day.motivationSub,
   },
